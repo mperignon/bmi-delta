@@ -1,8 +1,8 @@
-name: HeatPy
+name: DeltaRCMPy
 language: python
 
-package: heat
-class: BmiHeat
+package: deltaRCM
+class: BmiDeltaRCM
 
 build:
   - python setup.py install
