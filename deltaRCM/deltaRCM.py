@@ -24,7 +24,7 @@ class DeltaRCM(deltaRCM_base.Tools):
         self._time = 0.
         self._time_step = 1.
         self.verbose = False
-        self.input_file = 'DeltaRCM.in'
+        self.input_file = 'https://raw.githubusercontent.com/mperignon/deltaRCM/master/component/deltaRCM.in'
         self.Np_water = 0
         self.create_dicts()
         self.set_defaults()
